@@ -264,7 +264,6 @@ const App = () => {
                             <label htmlFor="login-password">Password</label>
                             <input type="password" id="login-password" name="password" required value={form.login.password} onChange={(e) => handleInputChange(e, 'login')} />
                         </div>
-                        <a href="#" className="forgot-password">Forgot Password?</a>
                         <button type="submit" className="auth-btn">Log In</button>
                         <p className="switch-text">Don't have an account? <button type="button" onClick={() => setActiveView('signup')}>Sign Up</button></p>
                     </form>
